@@ -1,0 +1,9 @@
+D:\Dokumente\Master\Spezielle Softwaresysteme\TestLabor2\8Ball Anwendung\8Ball Anwendung\bin\Debug\8Ball Anwendung.exe.config
+D:\Dokumente\Master\Spezielle Softwaresysteme\TestLabor2\8Ball Anwendung\8Ball Anwendung\bin\Debug\8Ball Anwendung.exe
+D:\Dokumente\Master\Spezielle Softwaresysteme\TestLabor2\8Ball Anwendung\8Ball Anwendung\bin\Debug\8Ball Anwendung.pdb
+D:\Dokumente\Master\Spezielle Softwaresysteme\TestLabor2\8Ball Anwendung\8Ball Anwendung\obj\Debug\8Ball Anwendung.csprojResolveAssemblyReference.cache
+D:\Dokumente\Master\Spezielle Softwaresysteme\TestLabor2\8Ball Anwendung\8Ball Anwendung\obj\Debug\_8Ball_Anwendung.Form1.resources
+D:\Dokumente\Master\Spezielle Softwaresysteme\TestLabor2\8Ball Anwendung\8Ball Anwendung\obj\Debug\_8Ball_Anwendung.Properties.Resources.resources
+D:\Dokumente\Master\Spezielle Softwaresysteme\TestLabor2\8Ball Anwendung\8Ball Anwendung\obj\Debug\8Ball Anwendung.csproj.GenerateResource.Cache
+D:\Dokumente\Master\Spezielle Softwaresysteme\TestLabor2\8Ball Anwendung\8Ball Anwendung\obj\Debug\8Ball Anwendung.exe
+D:\Dokumente\Master\Spezielle Softwaresysteme\TestLabor2\8Ball Anwendung\8Ball Anwendung\obj\Debug\8Ball Anwendung.pdb
