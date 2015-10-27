@@ -88,6 +88,7 @@
             this.lb_ansage.Size = new System.Drawing.Size(46, 13);
             this.lb_ansage.TabIndex = 7;
             this.lb_ansage.Text = "Ansage:";
+            this.lb_ansage.Visible = false;
             // 
             // cb_ansage
             // 
@@ -112,6 +113,7 @@
             this.cb_ansage.Name = "cb_ansage";
             this.cb_ansage.Size = new System.Drawing.Size(100, 21);
             this.cb_ansage.TabIndex = 8;
+            this.cb_ansage.Visible = false;
             // 
             // richTextBox1
             // 
@@ -126,7 +128,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(408, 451);
+            this.ClientSize = new System.Drawing.Size(437, 445);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.cb_ansage);
             this.Controls.Add(this.lb_ansage);

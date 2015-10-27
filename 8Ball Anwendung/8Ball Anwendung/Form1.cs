@@ -19,7 +19,8 @@ namespace _8Ball_Anwendung
 
         private void hit_Click(object sender, EventArgs e)
         {
-
+                ownlibary.Class1.setAnsage(5);
+           
         }
     }
 }
