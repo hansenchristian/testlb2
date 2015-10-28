@@ -19,7 +19,39 @@ namespace _8Ball_Anwendung
 
         private void hit_Click(object sender, EventArgs e)
         {
-                ownlibary.Class1.setAnsage(5);
+            //Inizialisierung von Variablen aus der GUI
+            bool hit = true;
+            int count = Int32.Parse(lb_count.Text);
+            int hitBalls = Int32.Parse(touchedBalls.Text);
+            string[] sinkedBallsS = elmBalls.Text.Split(',');
+            int ansage = Int32.Parse(cb_ansage.SelectedItem.ToString());
+            int[] sinkedBalls = new int[sinkedBallsS.Length];
+            for (int i = 0; i < sinkedBalls.Length; i++)
+            {
+                sinkedBalls[i] = Int32.Parse(sinkedBallsS[i]);
+            }
+
+            //Kein Ball getroffen?
+            if(hitBalls == 0 && sinkedBalls.Length == 0)
+            {
+                hit = false;
+            }
+
+            //Erster Stoss?
+            if (count == 0)
+            {
+                firstHit(count,hit,sinkedBalls);
+                lb_count.Text = "1";
+                lb_ansage.Visible = true;
+                cb_ansage.Visible = true;
+            }
+            else
+            {
+                setAnsage(ansage);
+                stoss(hitBalls, sinkedBalls);
+                lb_count.Text = count + 1 + "";
+
+            }
            
         }
     }

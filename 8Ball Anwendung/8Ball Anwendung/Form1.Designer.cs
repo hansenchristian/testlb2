@@ -36,6 +36,8 @@
             this.lb_ansage = new System.Windows.Forms.Label();
             this.cb_ansage = new System.Windows.Forms.ComboBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.lb_count = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // hit
@@ -124,11 +126,31 @@
             this.richTextBox1.TabIndex = 9;
             this.richTextBox1.Text = "";
             // 
+            // lb_count
+            // 
+            this.lb_count.AutoSize = true;
+            this.lb_count.Location = new System.Drawing.Point(112, 206);
+            this.lb_count.Name = "lb_count";
+            this.lb_count.Size = new System.Drawing.Size(13, 13);
+            this.lb_count.TabIndex = 10;
+            this.lb_count.Text = "0";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(45, 206);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(56, 13);
+            this.label3.TabIndex = 11;
+            this.label3.Text = "Spielzüge:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(437, 445);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lb_count);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.cb_ansage);
             this.Controls.Add(this.lb_ansage);
@@ -154,6 +176,8 @@
         private System.Windows.Forms.Label lb_ansage;
         private System.Windows.Forms.ComboBox cb_ansage;
         private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.Label lb_count;
+        private System.Windows.Forms.Label label3;
     }
 }
 
