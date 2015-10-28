@@ -35,9 +35,9 @@
             this.touchedBalls = new System.Windows.Forms.TextBox();
             this.lb_ansage = new System.Windows.Forms.Label();
             this.cb_ansage = new System.Windows.Forms.ComboBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.lb_count = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.tb_Ausgabe = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // hit
@@ -117,15 +117,6 @@
             this.cb_ansage.TabIndex = 8;
             this.cb_ansage.Visible = false;
             // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(42, 261);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(323, 178);
-            this.richTextBox1.TabIndex = 9;
-            this.richTextBox1.Text = "";
-            // 
             // lb_count
             // 
             this.lb_count.AutoSize = true;
@@ -144,14 +135,23 @@
             this.label3.TabIndex = 11;
             this.label3.Text = "Spielzüge:";
             // 
+            // tb_Ausgabe
+            // 
+            this.tb_Ausgabe.Location = new System.Drawing.Point(42, 274);
+            this.tb_Ausgabe.Multiline = true;
+            this.tb_Ausgabe.Name = "tb_Ausgabe";
+            this.tb_Ausgabe.ReadOnly = true;
+            this.tb_Ausgabe.Size = new System.Drawing.Size(323, 159);
+            this.tb_Ausgabe.TabIndex = 12;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(437, 445);
+            this.Controls.Add(this.tb_Ausgabe);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lb_count);
-            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.cb_ansage);
             this.Controls.Add(this.lb_ansage);
             this.Controls.Add(this.touchedBalls);
@@ -175,9 +175,9 @@
         private System.Windows.Forms.TextBox touchedBalls;
         private System.Windows.Forms.Label lb_ansage;
         private System.Windows.Forms.ComboBox cb_ansage;
-        private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Label lb_count;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox tb_Ausgabe;
     }
 }
 
