@@ -11,3 +11,6 @@ D:\Dokumente\Master\Spezielle Softwaresysteme\TestLabor2\8Ball Anwendung\8Ball A
 D:\Dokumente\Master\Spezielle Softwaresysteme\TestLabor2\8Ball Anwendung\8Ball Anwendung\bin\Debug\8ball64.dll
 D:\Dokumente\Master\Spezielle Softwaresysteme\TestLabor2\8Ball Anwendung\8Ball Anwendung\bin\Debug\ownlibary.dll
 D:\Dokumente\Master\Spezielle Softwaresysteme\TestLabor2\8Ball Anwendung\8Ball Anwendung\bin\Debug\ownlibary.pdb
+C:\Users\Christoph\Documents\Visual Studio 2015\Projects\git\testlb2\8Ball Anwendung\8Ball Anwendung\bin\Debug\8Ball Anwendung.exe.config
+C:\Users\Christoph\Documents\Visual Studio 2015\Projects\git\testlb2\8Ball Anwendung\8Ball Anwendung\obj\Debug\8Ball Anwendung.exe
+C:\Users\Christoph\Documents\Visual Studio 2015\Projects\git\testlb2\8Ball Anwendung\8Ball Anwendung\obj\Debug\8Ball Anwendung.pdb

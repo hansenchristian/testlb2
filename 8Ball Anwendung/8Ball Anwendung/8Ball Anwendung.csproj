@@ -120,9 +120,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\ownlibary\ownlibary\ownlibary.csproj">
-      <Project>{96e7d3e9-9021-4e00-99a9-05cccbd2863f}</Project>
-      <Name>ownlibary</Name>
+    <ProjectReference Include="..\..\..\..\foreignlibrary\foreignlibary\foreignlibrary.csproj">
+      <Project>{335d702b-6fd3-4520-800b-587cb1bf65a0}</Project>
+      <Name>foreignlibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
