@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using foreign = foreignlibary.Class1;
+
 
 namespace _8Ball_Anwendung
 {
@@ -27,7 +29,7 @@ namespace _8Ball_Anwendung
             int count = Int32.Parse(lb_count.Text);
             int hitBalls = Int32.Parse(touchedBalls.Text);
             string[] sinkedBallsS = elmBalls.Text.Split(',');
-            int ansage = Int32.Parse(cb_ansage.SelectedItem.ToString());
+            int ansage = 0;//Int32.Parse(cb_ansage.SelectedItem.ToString());
             int[] sinkedBalls = new int[sinkedBallsS.Length];
             for (int i = 0; i < sinkedBalls.Length; i++)
             {
@@ -39,11 +41,15 @@ namespace _8Ball_Anwendung
             {
                 hit = false;
             }
-
+            
             //Erster Stoss?
             if (count == 0)
             {
+<<<<<<< HEAD
+                Console.WriteLine(foreign.firstHit(count, hit, sinkedBalls));
+=======
                 int m = firstHit(count,hit,sinkedBalls);
+>>>>>>> e4c737abc0800b0f0407ed2659b2fe3c6e95aa06
                 lb_count.Text = "1";
                 lb_ansage.Visible = true;
                 cb_ansage.Visible = true;
@@ -58,9 +64,14 @@ namespace _8Ball_Anwendung
             }
             else
             {
+<<<<<<< HEAD
+                foreign.setAnsage(ansage);
+                Console.WriteLine(foreign.stoss(hitBalls, sinkedBalls));
+=======
                 //zweiter und folgende Stöße
                 setAnsage(ansage);
                 int m = stoss(hitBalls, sinkedBalls);
+>>>>>>> e4c737abc0800b0f0407ed2659b2fe3c6e95aa06
                 lb_count.Text = count + 1 + "";
                 if (m > 0)
                 {
